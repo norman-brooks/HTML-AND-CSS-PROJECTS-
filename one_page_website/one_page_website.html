@@ -4,6 +4,7 @@
 <head>
     <title>Jaguar Cars&reg;</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/styling.css">
 </head>
 
@@ -17,7 +18,7 @@
         </ul>
         <ul>
             <a href="#sidecars">
-                <li>Sidecars</li>
+                <li>Sidecar</li>
             </a>
             <a href="#D-Type">
                 <li>D-Type</li>
@@ -25,15 +26,7 @@
             <a href="#xk120">
                 <li>XK120</li>
             </a>
-            <a href="#Mark I">
-                <li>Mark I</li>
-            </a>
-            <a href="#EType">
-                <li>E-Type</li>
-            </a>
-            <a href="#XJS">
-                <li>XJS</li>
-            </a>
+           
             <a href="#video">
                 <li>Videos</li>
             </a>
@@ -46,7 +39,7 @@
                 A Visual History of Jaguar
                 Cars&reg
             </h2>
-            
+
             <p> A display of images of true Heritage and class. Jaguar was<br>
                 fist discovered as a motorcycle sidecar company that went by <em>Swallow Sidecar Company</em>.<br>
                 <em>SSC</em> was founded by William Lyons.The company's name <br>
@@ -63,61 +56,41 @@
             <!--Images used to open the lightbox-->
             <div class="row">
 
-                <!--Sidecar-->
+                <!--Sidecars-->
                 <div class="column">
-                    <div id="sidecars">
-                        <h3>Sidecars</h3>
-                        <img src="Images/Swallow_sidecar.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow"
-                            alt="Sidecar"><br><br>
-                    </div>
+
+                    <h3>Sidecar</h3>
+                    <img src="Images/Swallow_sidecar.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow"
+                        alt="Sidecar">
+
                 </div>
                 <div class="column">
-                    <div id="sidecars">
-                        <img src="Images/lyons_wamsley_sidecar.jpg" onclick="openModal();currentSlide(2)"
-                            class="hover-shadow" alt="Pic of Founder William Lyons and Enthusiast William Wamsley"><br>
-                    </div>
+                    <h3>Sidecar (W/ William Lyons)</h3>
+                    <img src="Images/lyons_wamsley_sidecar.jpg" onclick="openModal();currentSlide(2)"
+                        class="hover-shadow" alt="Pic of Founder William Lyons and Enthusiast William Wamsley">
+
                 </div>
 
                 <!--DType-->
                 <div class="column">
-                    <div id="D Type">
-                        <h3>D Type</h3>
-                        <img src="Images/D-Type.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow"
-                            alt="D-Type">
-                    </div>
+
+                    <h3>D Type</h3>
+                    <img src="Images/D-Type.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow"
+                        alt="D-Type">
+
                 </div>
                 <!--XK120-->
                 <div class="column">
-                    <div id="xk120">
-                        <h3>1951 XK120</h3>
-                        <img src="Images/1951_XK120.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow"
-                            alt="XK120">
-                    </div>
+
+                    <h3>1951 XK120</h3>
+                    <img src="Images/1951_XK120.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow"
+                        alt="XK120">
+
                 </div>
-                <!--Mark I-->
-                <div class="column">
-                    <div id="Mark I">
-                        <h3>1957 Mark I</h3>
-                        <img src="Images/1957_Jaguar_Mark_1.jpg" onclick="openModal();currentSlide(5)"
-                            class="hover-shadow" alt="1957 Mark I">
-                    </div>
-                </div>
-                <!--E-Type-->
-                <div class="column">
-                    <div id="EType">
-                        <h3>E-Type</h3>
-                        <img src="Images/E-Type.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow"
-                            alt="E-Type">
-                    </div>
-                </div>
+                
+
             </div>
-            <!--XJS-->
-            <div class="column">
-                <div id="XJS">
-                    <h3>XJS</h3>
-                    <img src="Images/XJS.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow" alt="XJS">
-                </div>
-            </div>
+
 
             <!--The Modal/Lightbox-->
             <div id="myModal" class="modal">
@@ -125,36 +98,26 @@
                 <div class="modal-content">
 
                     <div class="mySlides">
-                        <div class="numbertext">1 / 7</div>
+                        <div class="numbertext">1 / 4</div>
                         <img src="Images/Swallow_sidecar.jpg" style="width:100%">
                     </div>
 
                     <div class="mySlides">
-                        <div class="numbertext">2 / 7</div>
+                        <div class="numbertext">2 / 4</div>
                         <img src="Images/lyons_wamsley_sidecar.jpg" style="width:100%">
                     </div>
 
                     <div class="mySlides">
-                        <div class="numbertext">3 / 7</div>
+                        <div class="numbertext">3 / 4</div>
                         <img src="Images/D-Type.jpg" style="width:100%">
                     </div>
 
                     <div class="mySlides">
-                        <div class="numbertext">4 / 7</div>
+                        <div class="numbertext">4 / 4</div>
                         <img src="Images/1951_XK120.jpg" style="width:100%">
                     </div>
-                    <div class="mySlides">
-                        <div class="numbertext">5 / 7</div>
-                        <img src="Images/1957_Jaguar_Mark_1.jpg" style="width:100%">
-                    </div>
-                    <div class="mySlides">
-                        <div class="numbertext">6 / 7</div>
-                        <img src="Images/E-Type.jpg" style="width:100%">
-                    </div>
-                    <div class="mySlides">
-                        <div class="numbertext">7 / 7</div>
-                        <img src="Images/XJS.jpg" style="width:100%">
-                    </div>
+                    
+
                     <!--Next/previous controls-->
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -177,18 +140,9 @@
                     <div class="column">
                         <img class="demo" src="Images/1951_XK120thumb.jpg" onclick="currentSlide(4)" alt="XK120">
                     </div>
-                    <div class="column">
-                        <img class="demo" src="Images/1957_Jaguar_Mark_1thumb.jpg" onclick="currentSlide(5)"
-                            alt="1957 Mark I">
-                    </div>
-                    <div class="column">
-                        <img class="demo" src="Images/E-Typethumb.jpg" onclick="currentSlide(6)" alt="E-Type">
-                    </div>
-                    <div class="column">
-                        <img class="demo" src="Images/XJSthumb.jpg" onclick="currentSlide(7)" alt="XJS">
-                    </div>
+                    
+
                 </div>
-            </div>
     </section>
     <!--Videos-->
     <section>
